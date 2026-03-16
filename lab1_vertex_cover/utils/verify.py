@@ -2,7 +2,7 @@
 # Test solution for the VertexCover problem
 
 
-from utils.dimacs import *
+from dimacs import *
 from sys import *
 
 

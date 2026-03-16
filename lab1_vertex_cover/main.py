@@ -9,32 +9,32 @@ graph_names = [
     "e5",
     "e10",
     "e20",
-    "e40",
-    "e150",
+    # "e40",
+    # "e150",
     "s25",
     "s50",
-    "s500",
-    "b20",
-    "b30",
-    "b100",
-    "k330_a",
-    "k330_b",
-    "k330_c",
+    # "s500",
+    #"b20",
+    #"b30",
+    # "b100",
+    #"k330_a",
+    # "k330_b",
+    # "k330_c",
     "m20",
-    "m30",
-    "m40",
-    "m50",
-    "m100",
+    #"m30",
+    # "m40",
+    # "m50",
+    # "m100",
     "p20",
-    "p35",
-    "p60",
-    "p150",
-    "r30_01",
-    "r30_05",
-    "r50_001",
-    "r50_01",
-    "r50_05",
-    "r100_005",
+    #"p35",
+    # "p60",
+    # "p150",
+    #"r30_01",
+    # "r30_05",
+    # "r50_001",
+    # "r50_01",
+    # "r50_05",
+    # "r100_005",
 ]
 
 
@@ -61,8 +61,8 @@ if __name__ == "__main__":
             # TODO: implement kernelization
             # graph_kernel, k, solution = kernelize(...)
 
-            # TODO: implement solutions
-            solution = brute_force(..., k)
+            solution = brute_force(G, k)
+
 
             if not solution:
                 continue
